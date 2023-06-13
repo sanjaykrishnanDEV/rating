@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(216, 12%, 8%);
+}
+#main {
+  width: 100%;
+  max-width: 350px;
+  height: 350px;
+  padding: 20px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+}
+#main div {
+  width: 100%;
+}
+#main .star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: hsl(213, 19%, 22%);
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.submit-container {
+  display: block;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.submit-content-container p {
+  font-size: 0.89rem;
+  margin-bottom: 20px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213, 19%, 22%);
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.rating:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  font-weight: 700;
+  font-family: "Overpass", sans-serif;
+  outline: none;
+  cursor: pointer;
+}
+button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+/*thank you section*/
+.thank-container {
+  display: none;
+  text-align: center;
+}
+.thank-container img {
+  margin-bottom: 20px;
+}
+.thank-container .select-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: hsl(25, 97%, 53%);
+}
+
+.select-container p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213, 19%, 22%);
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  margin-bottom: 0 auto;
+}
+
+/*javascript */
+.active {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  background-color: hsl(25, 97%, 53%);
+}
